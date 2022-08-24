@@ -53,8 +53,9 @@ img{
     background: url(./banner.webp)fixed center/cover;
     height: 40%;
     display: flex;
-    align-content: center;
-    justify-content:center
+    align-items: center;
+    justify-content:center;
+    margin: auto;
 }
 .banner::before{
     content: "";
@@ -82,17 +83,15 @@ img{
     font-size: 2em;
     font-family: 'Covered By Your Grace', cursiva;
 }
-.Boton {
+.banner .banner__info .Boton {
     border: 7px solid #2e3542; 
     padding: 15px; 
     background-color: #d3d5db; 
     color: #0e0e0e;  
     text-decoration: none;
-    font-family: 'Covered By Your Grace', cursiva; 
+    font-family: 'Covered By Your Grace'; 
     border-radius: 35px;
-    position: absolute;
-    height: 20px;
-    width: 150px;
+   
     }
     .container{
         width: 100%;
